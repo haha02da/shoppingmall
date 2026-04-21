@@ -1,0 +1,32 @@
+.auth-status {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.875rem;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.auth-button {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.login-btn {
+  background-color: var(--primary);
+  color: white;
+}
+
+.logout-btn {
+  background-color: var(--muted);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+}
+
+.auth-button:hover {
+  opacity: 0.9;
+}
